@@ -25,7 +25,7 @@ function IndexPage() {
         </h2>
 
         <p className="leading-loose">
-          This is a barebones starter for Gatsby styled using{` `}
+          This is a barebones starter for Gatsby 3 styled using{` `}
           <a
             className="font-bold text-gray-900 no-underline"
             href="https://tailwindcss.com/"
@@ -34,7 +34,7 @@ function IndexPage() {
           >
             Tailwind CSS
           </a>
-          , a utility-first CSS framework.
+          , a utility-first CSS framework, and support for Sass.
         </p>
       </section>
     </Layout>
