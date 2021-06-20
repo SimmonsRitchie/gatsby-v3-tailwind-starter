@@ -4,6 +4,8 @@
 
 A fork of Taylor Bryant's [gatsby-starter-tailwind](https://github.com/taylorbryant/gatsby-starter-tailwind) template updated to Gatsby 3 and using Sass.
 
+View [demo](https://gatsby-v3-tailwind-starter.netlify.app/).
+
 ## Get started
 
 Install the Gatsby CLI:
