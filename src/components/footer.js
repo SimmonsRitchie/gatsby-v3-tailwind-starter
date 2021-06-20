@@ -2,6 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import { graphql, useStaticQuery } from "gatsby";
 
+
+
 const Footer = ({ note }) => {
   const currentYear = new Date().getFullYear();
   const { site } = useStaticQuery(graphql`
