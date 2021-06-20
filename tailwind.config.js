@@ -8,15 +8,7 @@ module.exports = {
     fontFamily: {
       sans: ["open-sans", "sans-serif"],
       montserrat: ["montserrat", "sans-serif"]
-
     },
-    extend: {
-      colors: {
-        gray: {
-          test: 'ff0000'
-        },
-      }
-    }
   },
   variants: {
     extend: {
