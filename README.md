@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2f66a540-278f-413c-ad70-47e6ec2dca46/deploy-status)](https://app.netlify.com/sites/gatsby-v3-starter-tailwind/deploys)
 
-A fork of Taylor Bryant's [gatsby-starter-tailwind](https://github.com/taylorbryant/gatsby-starter-tailwind) template updated to Gatsby 3 and using Sass.
+A fork of Taylor Bryant's [gatsby-starter-tailwind](https://github.com/taylorbryant/gatsby-starter-tailwind) template, updated with Gatsby 3 and wired up to use Sass.
 
 View [demo](https://gatsby-v3-tailwind-starter.netlify.app/).
 
