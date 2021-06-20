@@ -2,6 +2,8 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+import imgHavingFun from "../images/undraw-having-fun.png"
+
 
 function IndexPage() {
   return (
@@ -12,10 +14,28 @@ function IndexPage() {
       />
 
       <section className="text-center">
-        <h2 className="inline-block p-3 mb-12 text-2xl font-bold bg-yellow-400">
-          Gatsby V3 Tailwind Starter
+        <img
+          alt="Cat and human sitting on a couch"
+          className="block w-1/2 mx-auto mb-8"
+          src={imgHavingFun}
+        />
+
+        <h2 className="inline-block p-3 mb-8 text-2xl font-bold bg-yellow-400">
+          Hey there! Welcome to your first Gatsby site.
         </h2>
-        <p>A Gatsby version 3 starter template, styled with tailwind CSS.</p>
+
+        <p className="leading-loose">
+          This is a barebones starter for Gatsby styled using{` `}
+          <a
+            className="font-bold text-gray-900 no-underline"
+            href="https://tailwindcss.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Tailwind CSS
+          </a>
+          , a utility-first CSS framework.
+        </p>
       </section>
     </Layout>
   );
