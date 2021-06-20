@@ -1,6 +1,6 @@
 # Gatsby V3 Tailwind Starter
 
-A fork of Taylor Bryant's [gatsby-starter-tailwind](https://github.com/taylorbryant/gatsby-starter-tailwind) template updated to Gatsby 3.
+A fork of Taylor Bryant's [gatsby-starter-tailwind](https://github.com/taylorbryant/gatsby-starter-tailwind) template updated to Gatsby 3 and using sass.
 
 ## Get started
 
