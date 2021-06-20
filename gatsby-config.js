@@ -24,8 +24,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `pa-court-filings`,
-        short_name: `pa-court-filings`,
+        name: `gatsby-v3-tailwind-starter`,
+        short_name: `starter`,
         start_url: `/`,
         background_color: fullConfig.theme.colors.white,
         theme_color: fullConfig.theme.colors.green["500"],
