@@ -13,16 +13,12 @@ const Footer = ({ note }) => {
       }
     }
   `);
-  console.log("author",site)
-
   return (
     <footer className="bg-gray-900">
       <nav className="text-gray-400 flex flex-col sm:flex-row justify-between max-w-4xl py-8 px-8 mx-auto text-sm md:p-8">
-        <div className="mb-2 sm:mb-0 sm:w-40">
-          <p>
+          <p className="block whitespace-nowrap mb-2 sm:mb-0 sm:w-40">
             {site.siteMetadata.author}, {currentYear}
           </p>
-        </div>
         {note && (
           <div>
             {note}
