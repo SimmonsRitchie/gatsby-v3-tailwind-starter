@@ -7,7 +7,7 @@ import imgHavingFun from "../images/undraw-having-fun.png"
 
 function IndexPage() {
   return (
-    <Layout author="hi!">
+    <Layout>
       <SEO
         keywords={[`gatsby`, `v3`, `tailwind`, `css`]}
         title="Home"
